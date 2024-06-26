@@ -1,4 +1,4 @@
-# Simple run length encoding compression algorithm,
+# A simple run length encoding compression algorithm,
 # part of Techeryy/Python-Mini-Projects
 # Programmed By: Stephen Adams
 
