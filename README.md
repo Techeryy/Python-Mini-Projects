@@ -11,6 +11,18 @@ Enter String: AAAAAAFFDDDDDCCCAEEEEEEEE
 ```
 <a href="Programs/Run-Length-Encoding.py">View Source Code</a>
 
+## Password Strength Checker
+A relatively simplistic password strength checker algorithm which takes a password input and provides a score based on its strength alongside any criteria which was not met. The password strength checks include length, case, special characters, numeric characters & a check against a selection of the most commonly used passwords.
+
+For example, if the user were to enter their password as 'Nvidia26' they would receive a strength score of 80/100, as for each criteria which isn't met the strength score is reduced by 20 points, since the only criteria which wasn't met was the inclusion of special characters the password received a score of 100 - 20 = 80.
+```
+Please Enter A Strong Password: Nvidia26
+Please Re-Enter Your Password: Nvidia26
+Your password received an overall strength score of 80/100
+This is considered a weak password, the following criteria were not met: Special Characters
+```
+<a href="Programs/Password-Strength-Checker.py">View Source Code</a>
+
 ## Number Finder
 A simple algorithm to find a target within a large number even if the number is seperated by values not included within the target number.
 
