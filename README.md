@@ -1,6 +1,15 @@
 # Python Mini Projects
 A collection of my smaller Python algorithms in the style of mini-Python challenges.
 
+## Contents
+- <a href="#run-length-encoding">Run Length Encoding</a>
+
+- <a href="#password-strength-checker">Password Strength Checker</a>
+
+- <a href="#number-finder">Number Finder</a>
+
+- <a href="#linear-search">Linear Search</a>
+
 ## Run Length Encoding
 A simple run length encoding compression algorithm, which takes a string entered by the user and compresses it by replacing consecutive occurrences of a value with a count of how many times that value occurs consecutively and the value itself.
 
@@ -31,3 +40,12 @@ For example, if the target value was '4567' and the number was '2983**47**9082**
 True
 ```
 <a href="Programs/Number-Finder.py">View Source Code</a>
+
+## Linear Search
+A python implementation of a linear search algorithm, where items are individually compared against an item being searched for.
+
+For example, if you were searching for David in a list of names (James, Michael, Robert, John, David, William) the algorithm would iterate through the list and compare each item with the item to be found & would return True when David is found.
+```
+True
+```
+<a href="Programs/Linear-Search.py">View Source Code</a>
